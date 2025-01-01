@@ -15,7 +15,7 @@ class Solution:
         
         return slow+1
     
-# Approach 2: 
+# Approach 2: Iteration over the array
 
 class Solution:
     def removeDuplicates(self, nums: List[int]) -> int:
