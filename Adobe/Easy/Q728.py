@@ -11,7 +11,7 @@ def isSelfDividing(num):
     return True
 
 class Solution:
-    def selfDividingNumbers(self, left: int, right: int) -> List[int]:
+    def selfDividingNumbers(self, left: int, right: int) -> list[int]:
         ans = []
         for num in range(left, right+1):
             if isSelfDividing(num) == True:
@@ -29,7 +29,7 @@ def isSelfDividing(num: int) -> bool:
     return True
 
 class Solution:
-    def selfDividingNumbers(self, left: int, right: int) -> List[int]:
+    def selfDividingNumbers(self, left: int, right: int) -> list[int]:
         ans = []
         for num in range(left, right + 1):
             if isSelfDividing(num):
